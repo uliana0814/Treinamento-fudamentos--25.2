@@ -104,9 +104,10 @@ div.navigation_bar {
 
 div.right {
     display: flex;
-    position: relative;
     flex-direction: row;
     align-items: center;
+    position: absolute;
+    right: 0;
     gap: 15px;
     font-family: Arial, sans-serif;
     font-size: 1.2rem;
@@ -125,14 +126,12 @@ div.left {
     box-sizing: border-box;
 }
 
-h1 {
+div.center {
     color: rgb(38, 0, 143);
     font-family: Arial, sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     padding-top: 1rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    
-
 }
