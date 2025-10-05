@@ -29,15 +29,28 @@ div.cards {
     justify-content: center;
     gap: 20px;
     width: 100%;
-    };
+    }
 
-.add {
-  background-color: #4CAF50; /* Verde */
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-bottom: 10px;
+button.add {
+    background-color: green;
+    border: 1.5px solid black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+}
+button.remove {
+    border: 1.5px solid black;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+}
+
+div.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
 }
