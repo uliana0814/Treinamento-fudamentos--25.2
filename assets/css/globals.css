@@ -29,27 +29,31 @@ div.cards {
     }
 
 button.add {
-    background-color: green;
+    background-color: rgb(35, 163, 35);
     border: 1.5px solid black;
     padding: 10px 20px;
     border-radius: 20px;
     color: black;
     cursor: pointer;
+    font-size: 15px;
+
 }
 button.remove {
     border: 1.5px solid black;
-    background-color: red;
+    background-color: rgb(250, 37, 37);
     padding: 10px 20px;
     border-radius: 20px;
     color: black;
     cursor: pointer;
+    font-size: 15px;
 }
 
 div.buttons {
     display: flex;
-    justify-content: center;
+    justify-content: center;;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     flex-direction: column;
 }
 
@@ -67,6 +71,13 @@ button.remove:hover {
   min-height: 50px; 
   margin-bottom: 15px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .card p {
